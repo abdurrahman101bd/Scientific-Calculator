@@ -1,0 +1,63 @@
+<!doctype html>
+
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+  <link rel="stylesheet" href="calculator.css">
+  <title>Scientific Calculator</title>
+</head>
+<body>
+   <!-- Mode toggle button -->
+  <button class="mode-toggle" id="modeBtn">⚫</button>  
+  <main class="calc-wrap">
+
+    <!-- Display section -->
+    <section class="display">
+      <div class="small" id="history">&nbsp;</div>
+      <div class="main" id="display">0</div>
+    </section>
+    <section class="keys" id="keys">
+
+        <!-- First row -->
+      <button class="key" data-action="clear">C</button>
+      <button class="key" data-action="delete">⌫</button>
+      <button class="key op" data-value="(">(</button>
+      <button class="key op" data-value=")">)</button>
+      <button class="key op" data-value="%">%</button>
+      <button class="key op" data-value="/">÷</button>
+        <!-- Numbers and operations -->
+      <button class="key" data-value="7">7</button>
+      <button class="key" data-value="8">8</button>
+      <button class="key" data-value="9">9</button>
+      <button class="key op" data-value="*">×</button>
+      <button class="key op" data-value="^">^</button>
+      <button class="key op" data-value="sqrt(">√</button>
+
+      <button class="key" data-value="4">4</button>
+      <button class="key" data-value="5">5</button>
+      <button class="key" data-value="6">6</button>
+      <button class="key op" data-value="-">−</button>
+      <button class="key op" data-value="sin(">sin</button>
+      <button class="key op" data-value="cos(">cos</button>
+
+      <button class="key" data-value="1">1</button>
+      <button class="key" data-value="2">2</button>
+      <button class="key" data-value="3">3</button>
+      <button class="key op" data-value="+">+</button>
+      <button class="key op" data-value="tan(">tan</button>
+      <button class="key op" data-value="log(">log</button>
+
+      <button class="key double" data-value="00">00</button>
+      <button class="key" data-value="0">0</button>
+      <button class="key" data-value=".">.</button>
+      <button class="key" data-value="π">π</button>
+      <button class="key" data-value="e">e</button>
+
+      <button class="key eq" data-action="equals">=</button>
+    </section>
+
+  </main>  
+  <script src="calculator.js"></script>
+  </body>
+</html>
