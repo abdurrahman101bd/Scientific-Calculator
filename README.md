@@ -14,7 +14,7 @@
 ![GitHub issues](https://img.shields.io/github/issues-raw/abdurrahman101bd/Scientific-Calculator)
 ![GitHub stars](https://img.shields.io/github/stars/abdurrahman101bd/Scientific-Calculator?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/abdurrahman101bd/Scientific-Calculator?style=social)
-
+![Version](https://img.shields.io/badge/Version-1.0-blue)
 ---
 ---
 
@@ -154,4 +154,5 @@ Connect with me on **social** platforms:
 ⌛ Enjoy your **Scientific Calculator!**
 
 ---
+
 <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif">
